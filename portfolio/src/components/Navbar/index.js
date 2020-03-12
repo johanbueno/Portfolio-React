@@ -11,9 +11,7 @@ function Navbar() {
       </div>
       <ul id="menu" className="shadow">
         <li>
-          <Link className="navbar-brand" to="/">
-            About
-          </Link>
+        <a href="#about">About</a>
 
         </li>
         <li>
