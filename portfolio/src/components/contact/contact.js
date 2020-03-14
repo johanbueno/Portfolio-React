@@ -8,7 +8,7 @@ function Contact() {
         <div className="container">
             <div className="row">
 
-                <div className="col-md-12 contact "></div>
+                <div className="col-md-12  contact ">
                 <img id="Johan" src={Johan} alt="ProfilePicture"></img>
                 <h1>Contact</h1>
                 <hr></hr>
@@ -31,7 +31,7 @@ function Contact() {
                         <a href="https://github.com/johanbueno">Github</a>
                     </i>
 
-
+                </div>
                 </div>
             </div>
 
