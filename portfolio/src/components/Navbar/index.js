@@ -11,14 +11,22 @@ function Navbar() {
       </div>
       <ul id="menu" className="shadow">
         <li>
-        <a href="#about">About</a>
-
-        </li>
+      <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              About
+            </Link>
+            </li>
         <li>
           <Link
-            to="/"
+            to="/portfolio"
             className={
-              window.location.pathname === "/" || window.location.pathname === "/portfolio"
+               window.location.pathname === "/portfolio"
                 ? "nav-link active"
                 : "nav-link"
             }
@@ -31,9 +39,9 @@ function Navbar() {
         </li>
         <li>
           <Link
-            to="/"
+            to="/contact"
             className={
-              window.location.pathname === "/" || window.location.pathname === "/contact"
+               window.location.pathname === "/contact"
                 ? "nav-link active"
                 : "nav-link"
             } >

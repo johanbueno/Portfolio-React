@@ -5,16 +5,15 @@ import Navbar from './components/Navbar';
 import Home from './components/Home/home';
 import Footer from './components/Footer';
 import Contact from './components/contact/contact';
+import Portfolio from './components/portfolio';
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Route exact path={["/","/home"]}>
-      <Home />
-      </Route>
-      <Route exact path={["/","/contact"]}>
-      <Contact />
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/contact"component={Contact} />
+      <Route exact path="/portfolio"component={Portfolio}>
       </Route>
       
       <Footer />
