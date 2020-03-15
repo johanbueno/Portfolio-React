@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Johan from "../../JOHAN-BUENO.jpg"
 import "./style.css";
 import Angular from "../../images/angular.png";
@@ -9,7 +8,6 @@ import  Bootstrap from "../../images/bootstrap.png";
 import  Css   from "../../images/css.png";
 import  Express   from "../../images/Express.png";
 import  JavaScript   from "../../images/javascript.png";
-import  Jquery   from "../../images/jquery.jpeg";
 import  Node   from "../../images/node js.png";
 import  Html   from "../../images/html5.png";
 import  MySQL   from "../../images/MySQL.png";
@@ -68,7 +66,7 @@ function Home() {
                         <img src={Css} alt="css"></img>
                         <img src={Express} alt="Express"></img>
                         <img src={MySQL} alt="MySQL"></img>
-                        <img src= {Jquery}></img>
+
                  </div>
            </div>
            <div id="skills">
