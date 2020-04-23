@@ -8,6 +8,8 @@ import events from "../../images/Events.png";
 import google  from "../../images/google-api.png"
 import developer from "../../images/developer_profile/developer-profile.png";
 import password from "../../images/PASSWORD.png";
+import ModalCard from '../Modal'
+
 
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
@@ -15,12 +17,19 @@ $('#myModal').on('shown.bs.modal', function () {
 
 
 function Portfolio() {
-
+   
     return (
         <div  className="main">
             <div className="container ">
                 <div className="row  portfolio">
                     <br></br>
+                    
+                    
+                    <div  className="col  repos" >
+                        <ModalCard  
+
+                        ></ModalCard>
+                    </div>
                     <div className="col  repos">
                         <div className="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
