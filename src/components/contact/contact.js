@@ -1,5 +1,5 @@
 import React from "react";
-import Johan from "../../JOHAN-BUENO.jpg"
+import Johan from "../../images/JOHAN-B (1).webp"
 import "./style.css";
 
 function Contact() {
@@ -11,7 +11,11 @@ function Contact() {
 
                     </div>
                     <div className="col-md-8 contact ">
-                        <img id="Johan" src={Johan} alt="ProfilePicture"></img>
+                        <picture>
+                            <source type="image/webp" srcset={Johan} />
+
+                            <img id="Johan" src={Johan} alt="Johan-Bueno" />
+                        </picture>
                         <h1>Contact</h1>
                         <hr></hr>
 
